@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddEditCoffeeForm</class>
+ <widget class="QWidget" name="AddEditCoffeeForm">
+  <property name="geometry">
+   <rect>
+    <x>100</x>
+    <y>100</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Добавить/Редактировать Кофе</string>
+  </property>
+  <widget class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLineEdit" name="sortInput"/>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="roastInput"/>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="formInput"/>
+   </item>
+   <item>
+    <widget class="QTextEdit" name="descInput"/>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="priceInput"/>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="volumeInput"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="saveButton">
+     <property name="text">
+      <string>Сохранить</string>
+     </property>
+    </widget>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
